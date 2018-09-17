@@ -1,19 +1,25 @@
+export const INCREMENT = 'INCREMENT';
+export const DECREMENT = 'DECREMENT';
+export const DOUBLE = 'DOUBLE';
+export const HALF = 'HALF';
+export const RESET = 'RESET';
+
 export function increment() {
-  return {type: 'INCREMENT'}
+  return {type: INCREMENT}
 }
 
 export function decrement() {
-  return {type: 'DECREMENT'}
+  return {type: DECREMENT}
 }
 
 export const double = () => {
-  return {type: 'DOUBLE'}
+  return {type: DOUBLE}
 }
 
 export const half = () => {
-  return {type: 'HALF'}
+  return {type: HALF}
 }
 
 export const reset = () => {
-  return {type: 'RESET'}
+  return {type: RESET}
 }
