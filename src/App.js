@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {increment, decrement, double, half, reset} from './actions';
 import { connect } from 'react-redux';
